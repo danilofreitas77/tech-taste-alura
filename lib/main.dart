@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/ui/_core/app_theme.dart';
-import 'package:myapp/ui/splash/splah_screen.dart';
+import 'package:myapp/ui/splash/splash_screen.dart';
 
 void main() {
   runApp(MyApp());
