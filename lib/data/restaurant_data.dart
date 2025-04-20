@@ -3,7 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:myapp/model/restaurant.dart';
 
 class RestaurantData {
-  List<Restaurant> getRestaurant() async {
+  Future<List<Restaurant>> getRestaurant() async {
     List<Restaurant> listRestaurant = [];
 
     String jsonString = await rootBundle.loadString('assets/data.json');
